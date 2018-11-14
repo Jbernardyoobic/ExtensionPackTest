@@ -1,0 +1,29 @@
+{
+    "name": "extpacktest",
+    "displayName": "ExtPackTest",
+    "description": "testingPack",
+    "version": "0.0.1",
+    "publisher": "jacobTest",
+    "keywords": [
+        "yoobic"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Jbernardyoobic/ExtensionPackTest"
+    },
+    "engines": {
+        "vscode": "^1.29.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [ 
+        "jacobTest.extpacktest"
+    ],
+    "extensionDependencies": [
+        "alexkrechik.cucumberautocomplete",
+        "oderwat.indent-rainbow",
+        "eg2.tslint",
+        "eamodio.gitlens"
+    ]
+}
